@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="Beanmarkd flavour wheel: eight families from Fruity to Green, read from the middle out.">
+  <rect width="1600" height="900" fill="#FBF6EF"/>
+  <!-- left title block -->
+  <text x="96" y="372" font-family="Fraunces, Georgia, serif" font-size="34" font-weight="800" letter-spacing="3" fill="#BC6A52">FIELD GUIDE</text>
+  <text x="92" y="452" font-family="Fraunces, Georgia, serif" font-size="80" font-weight="800" fill="#2A2018">The flavour</text>
+  <text x="92" y="536" font-family="Fraunces, Georgia, serif" font-size="80" font-weight="800" fill="#2A2018">wheel</text>
+  <text x="96" y="612" font-family="Inter, system-ui, sans-serif" font-size="26" font-weight="600" fill="#7A6E62">Start in the middle, work out:</text>
+  <text x="96" y="648" font-family="Inter, system-ui, sans-serif" font-size="26" font-weight="700" fill="#2A2018">fruity → berry → blueberry.</text>
+  <path d="M 987.64 106.32 A 372.0 372.0 0 0 1 1272.36 106.32 L 1189.70 305.87 A 156.0 156.0 0 0 0 1070.30 305.87 Z" fill="#A24B38" stroke="#FBF6EF" stroke-width="3"/>
+  <text x="1130.0" y="180.0" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="27" font-weight="800" fill="#FFFFFF">Fruity</text>
+  <text x="1130.0" y="206.0" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="17" font-weight="600" fill="#FFFFFF" opacity="0.92">Citrus · Berry</text>
+  <path d="M 1272.36 106.32 A 372.0 372.0 0 0 1 1473.68 307.64 L 1274.13 390.30 A 156.0 156.0 0 0 0 1189.70 305.87 Z" fill="#9A4E78" stroke="#FBF6EF" stroke-width="3"/>
+  <text x="1316.7" y="257.3" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="27" font-weight="800" fill="#FFFFFF">Floral</text>
+  <text x="1316.7" y="283.3" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="17" font-weight="600" fill="#FFFFFF" opacity="0.92">Jasmine · Tea</text>
+  <path d="M 1473.68 307.64 A 372.0 372.0 0 0 1 1473.68 592.36 L 1274.13 509.70 A 156.0 156.0 0 0 0 1274.13 390.30 Z" fill="#9A6B1E" stroke="#FBF6EF" stroke-width="3"/>
+  <text x="1394.0" y="444.0" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="27" font-weight="800" fill="#FFFFFF">Sweet</text>
+  <text x="1394.0" y="470.0" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="17" font-weight="600" fill="#FFFFFF" opacity="0.92">Caramel · Honey</text>
+  <path d="M 1473.68 592.36 A 372.0 372.0 0 0 1 1272.36 793.68 L 1189.70 594.13 A 156.0 156.0 0 0 0 1274.13 509.70 Z" fill="#6E4E2E" stroke="#FBF6EF" stroke-width="3"/>
+  <text x="1316.7" y="630.7" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="27" font-weight="800" fill="#FFFFFF">Nutty / Cocoa</text>
+  <text x="1316.7" y="656.7" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="17" font-weight="600" fill="#FFFFFF" opacity="0.92">Chocolate · Nut</text>
+  <path d="M 1272.36 793.68 A 372.0 372.0 0 0 1 987.64 793.68 L 1070.30 594.13 A 156.0 156.0 0 0 0 1189.70 594.13 Z" fill="#9A5B2E" stroke="#FBF6EF" stroke-width="3"/>
+  <text x="1130.0" y="708.0" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="27" font-weight="800" fill="#FFFFFF">Spice</text>
+  <text x="1130.0" y="734.0" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="17" font-weight="600" fill="#FFFFFF" opacity="0.92">Cinnamon · Clove</text>
+  <path d="M 987.64 793.68 A 372.0 372.0 0 0 1 786.32 592.36 L 985.87 509.70 A 156.0 156.0 0 0 0 1070.30 594.13 Z" fill="#4A372A" stroke="#FBF6EF" stroke-width="3"/>
+  <text x="943.3" y="630.7" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="27" font-weight="800" fill="#FFFFFF">Roasty</text>
+  <text x="943.3" y="656.7" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="17" font-weight="600" fill="#FFFFFF" opacity="0.92">Toast · Smoky</text>
+  <path d="M 786.32 592.36 A 372.0 372.0 0 0 1 786.32 307.64 L 985.87 390.30 A 156.0 156.0 0 0 0 985.87 509.70 Z" fill="#7C6A3A" stroke="#FBF6EF" stroke-width="3"/>
+  <text x="866.0" y="444.0" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="27" font-weight="800" fill="#FFFFFF">Sour / Ferment</text>
+  <text x="866.0" y="470.0" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="17" font-weight="600" fill="#FFFFFF" opacity="0.92">Winey · Tangy</text>
+  <path d="M 786.32 307.64 A 372.0 372.0 0 0 1 987.64 106.32 L 1070.30 305.87 A 156.0 156.0 0 0 0 985.87 390.30 Z" fill="#3D6E61" stroke="#FBF6EF" stroke-width="3"/>
+  <text x="943.3" y="257.3" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="27" font-weight="800" fill="#FFFFFF">Green / Veg</text>
+  <text x="943.3" y="283.3" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="17" font-weight="600" fill="#FFFFFF" opacity="0.92">Herbal · Fresh</text>
+  <!-- center hub -->
+  <circle cx="1130.0" cy="450.0" r="150.0" fill="#FBF6EF"/>
+  <circle cx="1130.0" cy="450.0" r="150.0" fill="none" stroke="#ECE0D2" stroke-width="3"/>
+  <text x="1130.0" y="444.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="40" font-weight="800" fill="#2A2018">Taste</text>
+  <text x="1130.0" y="480.0" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="19" font-weight="700" letter-spacing="1" fill="#7A6E62">START HERE →</text>
+</svg>

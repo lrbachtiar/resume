@@ -1,0 +1,50 @@
+/* Case study pages: the CV's editorial layout, with room for screenshots. */
+
+.project__name .cv__status {
+  vertical-align: middle;
+}
+
+.project__links {
+  align-items: center;
+}
+
+.cv .project__cta {
+  display: inline-flex;
+  align-items: center;
+  min-height: 40px;
+  padding: 0 16px;
+  color: var(--paper);
+  background: var(--ink);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.cv .project__cta:hover {
+  background: var(--accent);
+}
+
+.project__bullets li + li {
+  margin-top: 8px;
+}
+
+.project__shots {
+  display: grid;
+  gap: 28px;
+}
+
+.project__shots figure {
+  margin: 0;
+}
+
+.project__shots img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--rule);
+}
+
+.project__shots figcaption {
+  margin-top: 8px;
+  font-size: 14px;
+  color: var(--ink-muted);
+}

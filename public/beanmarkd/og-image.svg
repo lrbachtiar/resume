@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Beanmarkd — Remember every bean at its freshest.">
+  <!-- Placeholder social card. For production, export a 1200×630 PNG (broadest
+       platform support) and point useSiteMeta / index.html og:image at it. -->
+  <defs>
+    <radialGradient id="honeyDisc" cx="30%" cy="30%" r="80%">
+      <stop offset="0%" stop-color="#E6C089"/>
+      <stop offset="100%" stop-color="#C98A3E"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="#FBF6EF"/>
+  <rect x="0" y="0" width="1200" height="12" fill="#C98A3E"/>
+
+  <!-- wordmark lockup -->
+  <g transform="translate(96 150)">
+    <rect width="84" height="84" rx="20" fill="url(#honeyDisc)"/>
+    <g transform="translate(42 42)">
+      <ellipse cx="0" cy="0" rx="26" ry="35" fill="#FFFFFF"/>
+      <path d="M0 -31 C -9 -19, -9 19, 0 31" stroke="#C98A3E" stroke-width="6" stroke-linecap="round" fill="none"/>
+    </g>
+    <text x="108" y="62" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="64" font-weight="800" letter-spacing="-1.5">
+      <tspan fill="#2A2018">bean</tspan><tspan fill="#C98A3E">markd</tspan>
+    </text>
+  </g>
+
+  <!-- hero line -->
+  <text x="96" y="360" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="88" font-weight="800" letter-spacing="-3" fill="#2A2018">Remember every bean</text>
+  <text x="96" y="460" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="88" font-weight="800" letter-spacing="-3" fill="#2A2018">at its <tspan fill="#BC6A52">freshest.</tspan></text>
+
+  <!-- category label -->
+  <text x="98" y="545" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="26" font-weight="800" letter-spacing="4" fill="#A0907E">FRESHNESS-FIRST COFFEE NETWORK</text>
+</svg>

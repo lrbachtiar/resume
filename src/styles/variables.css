@@ -1,0 +1,36 @@
+:root {
+  /* Golf palette */
+  --forest: #193c32;
+  --forest-deep: #122c25;
+  --fairway: #7da66a;
+  --fairway-light: #a3c48e;
+  --sand: #e8d9b8;
+  --cream: #f5f0e5;
+  --flag: #c8553d;
+
+  /* CV palette */
+  --ink: #1c1f22;
+  --ink-muted: #5c636a;
+  --paper: #ffffff;
+  --rule: #e4e4e1;
+  --accent: var(--forest);
+
+  /* Type */
+  --font-display: 'Fraunces', Georgia, 'Times New Roman', serif;
+  --font-body: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-mono: 'DM Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace;
+
+  /* Layout */
+  --gutter: clamp(16px, 4vw, 48px);
+  --cv-width: 800px;
+
+  /* Motion */
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --dur: 280ms;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --dur: 0ms;
+  }
+}

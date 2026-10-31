@@ -1,0 +1,468 @@
+{
+ "photos": [
+  {
+   "file": "espresso-01",
+   "credit": "Pexels",
+   "url": "https://www.pexels.com/photo/2775827/",
+   "attribution_required": false
+  },
+  {
+   "file": "espresso-02",
+   "credit": "Pexels",
+   "url": "https://www.pexels.com/photo/9050518/",
+   "attribution_required": false
+  },
+  {
+   "file": "espresso-03",
+   "credit": "Pexels",
+   "url": "https://www.pexels.com/photo/302891/",
+   "attribution_required": false
+  },
+  {
+   "file": "espresso-04",
+   "credit": "Pexels",
+   "url": "https://www.pexels.com/photo/6205641/",
+   "attribution_required": false
+  },
+  {
+   "file": "espresso-05",
+   "credit": "Pexels",
+   "url": "https://www.pexels.com/photo/19973471/",
+   "attribution_required": false
+  },
+  {
+   "file": "espresso-06",
+   "credit": "Pexels",
+   "url": "https://www.pexels.com/photo/4927237/",
+   "attribution_required": false
+  },
+  {
+   "file": "espresso-07",
+   "credit": "Unsplash",
+   "url": "https://unsplash.com/photos/FOKVlQRl3uY",
+   "attribution_required": false
+  },
+  {
+   "file": "espresso-08",
+   "credit": "Pexels",
+   "url": "https://www.pexels.com/photo/9050554/",
+   "attribution_required": false
+  },
+  {
+   "file": "espresso-09",
+   "credit": "Pexels",
+   "url": "https://www.pexels.com/photo/9052268/",
+   "attribution_required": false
+  },
+  {
+   "file": "espresso-10",
+   "credit": "Pexels",
+   "url": "https://www.pexels.com/photo/26626461/",
+   "attribution_required": false
+  },
+  {
+   "file": "espresso-11",
+   "credit": "Pexels",
+   "url": "https://www.pexels.com/photo/30384438/",
+   "attribution_required": false
+  },
+  {
+   "file": "espresso-12",
+   "credit": "Pexels",
+   "url": "https://www.pexels.com/photo/30707443/",
+   "attribution_required": false
+  },
+  {
+   "file": "espresso-13",
+   "credit": "Pexels",
+   "url": "https://www.pexels.com/photo/13623762/",
+   "attribution_required": false
+  },
+  {
+   "file": "espresso-14",
+   "credit": "Pexels",
+   "url": "https://www.pexels.com/photo/2133185/",
+   "attribution_required": false
+  },
+  {
+   "file": "espresso-15",
+   "credit": "Unsplash",
+   "url": "https://unsplash.com/photos/4MCJpRp_xbw",
+   "attribution_required": false
+  },
+  {
+   "file": "espresso-16",
+   "credit": "Unsplash",
+   "url": "https://unsplash.com/photos/RwYxjeTjxuI",
+   "attribution_required": false
+  },
+  {
+   "file": "espresso-17",
+   "credit": "Unsplash",
+   "url": "https://unsplash.com/photos/9rTEwV_G0Do",
+   "attribution_required": false
+  },
+  {
+   "file": "espresso-18",
+   "credit": "Pexels",
+   "url": "https://www.pexels.com/photo/32103303/",
+   "attribution_required": false
+  },
+  {
+   "file": "espresso-19",
+   "credit": "Pexels",
+   "url": "https://www.pexels.com/photo/12703064/",
+   "attribution_required": false
+  },
+  {
+   "file": "pour_over-01",
+   "credit": "Pexels",
+   "url": "https://www.pexels.com/photo/15672170/",
+   "attribution_required": false
+  },
+  {
+   "file": "pour_over-02",
+   "credit": "Unsplash",
+   "url": "https://unsplash.com/photos/XP5zW2ngk9w",
+   "attribution_required": false
+  },
+  {
+   "file": "pour_over-03",
+   "credit": "Unsplash",
+   "url": "https://unsplash.com/photos/TYIzeCiZ_60",
+   "attribution_required": false
+  },
+  {
+   "file": "pour_over-04",
+   "credit": "Pexels",
+   "url": "https://www.pexels.com/photo/18199411/",
+   "attribution_required": false
+  },
+  {
+   "file": "pour_over-05",
+   "credit": "Pexels",
+   "url": "https://www.pexels.com/photo/4349776/",
+   "attribution_required": false
+  },
+  {
+   "file": "pour_over-06",
+   "credit": "Unsplash",
+   "url": "https://unsplash.com/photos/qVN7jcgU68U",
+   "attribution_required": false
+  },
+  {
+   "file": "pour_over-07",
+   "credit": "Pexels",
+   "url": "https://www.pexels.com/photo/6660468/",
+   "attribution_required": false
+  },
+  {
+   "file": "pour_over-08",
+   "credit": "Pexels",
+   "url": "https://www.pexels.com/photo/3749174/",
+   "attribution_required": false
+  },
+  {
+   "file": "pour_over-09",
+   "credit": "Unsplash",
+   "url": "https://unsplash.com/photos/E6f3_ipCdfc",
+   "attribution_required": false
+  },
+  {
+   "file": "pour_over-10",
+   "credit": "Unsplash",
+   "url": "https://unsplash.com/photos/TMfiOzF2r94",
+   "attribution_required": false
+  },
+  {
+   "file": "pour_over-11",
+   "credit": "Pexels",
+   "url": "https://www.pexels.com/photo/69975/",
+   "attribution_required": false
+  },
+  {
+   "file": "pour_over-12",
+   "credit": "Unsplash",
+   "url": "https://unsplash.com/photos/_FilM6g6DEQ",
+   "attribution_required": false
+  },
+  {
+   "file": "pour_over-13",
+   "credit": "Pexels",
+   "url": "https://www.pexels.com/photo/22687043/",
+   "attribution_required": false
+  },
+  {
+   "file": "pour_over-14",
+   "credit": "Pexels",
+   "url": "https://www.pexels.com/photo/7125760/",
+   "attribution_required": false
+  },
+  {
+   "file": "pour_over-15",
+   "credit": "Unsplash",
+   "url": "https://unsplash.com/photos/LSD6fWEvGlo",
+   "attribution_required": false
+  },
+  {
+   "file": "pour_over-16",
+   "credit": "Unsplash",
+   "url": "https://unsplash.com/photos/VV2f3ZpTnCw",
+   "attribution_required": false
+  },
+  {
+   "file": "pour_over-17",
+   "credit": "Pexels",
+   "url": "https://www.pexels.com/photo/7658346/",
+   "attribution_required": false
+  },
+  {
+   "file": "aeropress-01",
+   "credit": "Unsplash",
+   "url": "https://unsplash.com/photos/1Yje-NZrrME",
+   "attribution_required": false
+  },
+  {
+   "file": "aeropress-02",
+   "credit": "Unsplash",
+   "url": "https://unsplash.com/photos/8AsDMYlJjqM",
+   "attribution_required": false
+  },
+  {
+   "file": "aeropress-03",
+   "credit": "Unsplash",
+   "url": "https://unsplash.com/photos/zw_lgenND-c",
+   "attribution_required": false
+  },
+  {
+   "file": "aeropress-04",
+   "credit": "Wikimedia Commons — \"2019 02 AeroPress Pacamara Central Mall Korat\" by Takeaway, CC BY-SA 4.0",
+   "url": "https://commons.wikimedia.org/wiki/File:2019_02_AeroPress_Pacamara_Central_Mall_Korat.jpg",
+   "attribution_required": true
+  },
+  {
+   "file": "aeropress-05",
+   "credit": "Wikimedia Commons — \"Usuaria de Aeropress\" by Gbvaldez, CC BY-SA 4.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Usuaria_de_Aeropress.jpg",
+   "attribution_required": true
+  },
+  {
+   "file": "aeropress-06",
+   "credit": "Wikimedia Commons — \"Aeropress brew method\" by Bex Walton, CC BY 2.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Aeropress_brew_method.jpg",
+   "attribution_required": true
+  },
+  {
+   "file": "aeropress-07",
+   "credit": "Wikimedia Commons — \"2015 AeroPress and 2020 AeroPress Go\" by Bex Walton, CC BY 2.0",
+   "url": "https://commons.wikimedia.org/wiki/File:2015_AeroPress_and_2020_AeroPress_Go.jpg",
+   "attribution_required": true
+  },
+  {
+   "file": "aeropress-08",
+   "credit": "Wikimedia Commons — \"Aeropress Go\" by Bex Walton, CC BY 2.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Aeropress_Go_(49770779481).jpg",
+   "attribution_required": true
+  },
+  {
+   "file": "aeropress-09",
+   "credit": "Unsplash",
+   "url": "https://unsplash.com/photos/FnSripvtWeo",
+   "attribution_required": false
+  },
+  {
+   "file": "cold_brew-01",
+   "credit": "Pexels",
+   "url": "https://www.pexels.com/photo/16496287/",
+   "attribution_required": false
+  },
+  {
+   "file": "cold_brew-02",
+   "credit": "Pexels",
+   "url": "https://www.pexels.com/photo/10540639/",
+   "attribution_required": false
+  },
+  {
+   "file": "cold_brew-03",
+   "credit": "Pexels",
+   "url": "https://www.pexels.com/photo/6896001/",
+   "attribution_required": false
+  },
+  {
+   "file": "cold_brew-04",
+   "credit": "Pexels",
+   "url": "https://www.pexels.com/photo/34170574/",
+   "attribution_required": false
+  },
+  {
+   "file": "cold_brew-05",
+   "credit": "Pexels",
+   "url": "https://www.pexels.com/photo/11136849/",
+   "attribution_required": false
+  },
+  {
+   "file": "moka-01",
+   "credit": "Pexels",
+   "url": "https://www.pexels.com/photo/5186732/",
+   "attribution_required": false
+  },
+  {
+   "file": "moka-02",
+   "credit": "Pexels",
+   "url": "https://www.pexels.com/photo/17905946/",
+   "attribution_required": false
+  },
+  {
+   "file": "moka-03",
+   "credit": "Pexels",
+   "url": "https://www.pexels.com/photo/13736110/",
+   "attribution_required": false
+  },
+  {
+   "file": "french_press-01",
+   "credit": "Pexels",
+   "url": "https://www.pexels.com/photo/34153653/",
+   "attribution_required": false
+  },
+  {
+   "file": "french_press-02",
+   "credit": "Pexels",
+   "url": "https://www.pexels.com/photo/34153654/",
+   "attribution_required": false
+  },
+  {
+   "file": "french_press-03",
+   "credit": "Pexels",
+   "url": "https://www.pexels.com/photo/5240578/",
+   "attribution_required": false
+  },
+  {
+   "file": "drip-01",
+   "credit": "Pexels",
+   "url": "https://www.pexels.com/photo/29162416/",
+   "attribution_required": false
+  },
+  {
+   "file": "drip-02",
+   "credit": "Pexels",
+   "url": "https://www.pexels.com/photo/4816319/",
+   "attribution_required": false
+  },
+  {
+   "file": "drip-03",
+   "credit": "Wikimedia Commons — \"Moccamaster coffee maker\" (video still) by Erik Pålsson, CC BY 3.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Moccamaster_coffee_maker.webm",
+   "attribution_required": true
+  },
+  {
+   "file": "flat_white-01",
+   "credit": "Flickr — \"flat white\" by skinnydiver, CC BY-SA 2.0",
+   "url": "https://www.flickr.com/photos/53197929@N00/4577406456",
+   "attribution_required": true
+  },
+  {
+   "file": "flat_white-02",
+   "credit": "Flickr — \"Paris-Day1-5\" by ajay_suresh, CC BY 2.0",
+   "url": "https://www.flickr.com/photos/83136374@N05/37702232851",
+   "attribution_required": true
+  },
+  {
+   "file": "latte-01",
+   "credit": "Flickr — \"Coffee Art, Edinburgh\" by alixanaeuphoria, CC BY-SA 2.0",
+   "url": "https://www.flickr.com/photos/35711875@N00/385427778",
+   "attribution_required": true
+  },
+  {
+   "file": "latte-02",
+   "credit": "Wikimedia Commons — \"Flat white with an example of a 'Tulip.'\" by Maxstein5, CC BY-SA 4.0",
+   "url": "https://commons.wikimedia.org/w/index.php?curid=125021495",
+   "attribution_required": true
+  },
+  {
+   "file": "cortado-02",
+   "credit": "Flickr — \"Cortado foam storm\" by censemaker, CC BY 2.0",
+   "url": "https://www.flickr.com/photos/10316646@N07/10540198036",
+   "attribution_required": true
+  },
+  {
+   "file": "cappuccino-01",
+   "credit": "Flickr — \"pouring hot chocolate like latte art\" by insidious_plots, CC BY 2.0",
+   "url": "https://www.flickr.com/photos/70928775@N00/4561741727",
+   "attribution_required": true
+  },
+  {
+   "file": "matcha-01",
+   "credit": "Wikimedia Commons — \"Matcha latte in tall glass\" by Derjochenmeyer, CC BY-SA 4.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Matcha_latte_in_tall_glass.jpg",
+   "attribution_required": true
+  },
+  {
+   "file": "matcha-02",
+   "credit": "Wikimedia Commons — \"Matcha latte in Totaro café Kyoto Japan\" by Derjochenmeyer, CC BY-SA 4.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Matcha_latte_in_Totaro_caf%C3%A9_Kyoto_Japan.jpg",
+   "attribution_required": true
+  },
+  {
+   "file": "chai-01",
+   "credit": "Wikimedia Commons — \"Masala Chai\" by Miansari66, public domain",
+   "url": "https://commons.wikimedia.org/wiki/File:Masala_Chai.JPG",
+   "attribution_required": true
+  },
+  {
+   "file": "chai-02",
+   "credit": "Wikimedia Commons — \"Homemade Chai Latte with Almond milk\" by Andy Li, CC0",
+   "url": "https://commons.wikimedia.org/wiki/File:Homemade_Chai_Latte_with_Almond_milk_-_Moksha_2025-08-01.jpg",
+   "attribution_required": true
+  },
+  {
+   "file": "chocolate-01",
+   "credit": "Wikimedia Commons — \"Dark Hot Chocolate, San Churro Leederville\" by Bahnfrend, CC BY-SA 4.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Dark_Hot_Chocolate,_San_Churro_Leederville,_2026_(01).jpg",
+   "attribution_required": true
+  },
+  {
+   "file": "tea-01",
+   "credit": "Wikimedia Commons — \"White cup with green tea in it\" by Douglas P Perkins, CC BY 3.0",
+   "url": "https://commons.wikimedia.org/wiki/File:White_cup_with_green_tea_in_it.jpg",
+   "attribution_required": true
+  },
+  {
+   "file": "turmeric-01",
+   "credit": "Wikimedia Commons — \"Golden turmeric latte - Hello My Moon\" by Andy Li, CC0",
+   "url": "https://commons.wikimedia.org/wiki/File:Golden_turmeric_latte_-_Hello_My_Moon_2024-04-07.jpg",
+   "attribution_required": true
+  }
+ ],
+ "journal": [
+  {
+   "file": "acidity-the-bright-bite.webp",
+   "credit": "Acidity hero — Flickr, by moonjazz, CC BY 2.0",
+   "url": "https://www.flickr.com/photos/8398907@N02/4350981775",
+   "attribution_required": true
+  },
+  {
+   "file": "what-roast-level-does-to-taste.webp",
+   "credit": "Roast level hero — Flickr, by WordRidden, CC BY 2.0",
+   "url": "https://www.flickr.com/photos/97844767@N00/8278580250",
+   "attribution_required": true
+  },
+  {
+   "file": "how-processing-shapes-the-cup.webp",
+   "credit": "Processing hero — Flickr, by skinnydiver, CC BY-SA 2.0",
+   "url": "https://www.flickr.com/photos/53197929@N00/4682880742",
+   "attribution_required": true
+  },
+  {
+   "file": "tasting-by-origin.webp",
+   "credit": "Origin hero — Flickr, by U.S. Fish & Wildlife Service, Public Domain (PDM 1.0)",
+   "url": "https://www.flickr.com/photos/43322816@N08/4604545436",
+   "attribution_required": false
+  },
+  {
+   "file": "milk-drinks-and-taste.webp",
+   "credit": "Milk drinks hero — Flickr, by alexbrn, CC BY 2.0",
+   "url": "https://www.flickr.com/photos/45086087@N00/5621623566",
+   "attribution_required": true
+  }
+ ]
+}

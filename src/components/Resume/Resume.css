@@ -1,0 +1,353 @@
+.cv {
+  min-height: 100vh;
+  max-width: calc(var(--cv-width) + 2 * var(--gutter));
+  margin: 0 auto;
+  padding: clamp(40px, 7vw, 88px) var(--gutter) 112px;
+  background: var(--paper);
+  color: var(--ink);
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* The CV owns the whole viewport: white, not the forest page background. */
+body:has(.cv) {
+  background: var(--paper);
+}
+
+.cv a {
+  color: var(--accent);
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+}
+
+.cv__name {
+  font-weight: 600;
+  font-size: clamp(32px, 5vw, 44px);
+  line-height: 1.1;
+  letter-spacing: -0.03em;
+}
+
+.cv__headline {
+  margin-top: 6px;
+  font-size: 20px;
+  color: var(--accent);
+}
+
+.cv__role {
+  margin-top: 2px;
+  color: var(--ink-muted);
+}
+
+.cv__contact {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 20px;
+  margin-top: 18px;
+  list-style: none;
+  font-size: 15px;
+  color: var(--ink-muted);
+}
+
+.cv__contact a {
+  display: inline-block;
+  padding: 4px 0;
+}
+
+.cv__section {
+  margin-top: 44px;
+  padding-top: 20px;
+  border-top: 1px solid var(--rule);
+}
+
+.cv__h2 {
+  margin-bottom: 18px;
+  font-family: var(--font-mono);
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-muted);
+  scroll-margin-top: 24px;
+}
+
+.cv__prose p + p {
+  margin-top: 12px;
+}
+
+.cv__muted {
+  color: var(--ink-muted);
+  font-weight: 400;
+}
+
+.cv__list {
+  list-style: none;
+}
+
+.cv__entry + .cv__entry {
+  margin-top: 28px;
+}
+
+.cv__org {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.cv__role-block {
+  margin-top: 8px;
+}
+
+.cv__role-line {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0 16px;
+  font-weight: 500;
+}
+
+.cv__dates {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  font-weight: 400;
+  color: var(--ink-muted);
+  white-space: nowrap;
+}
+
+.cv__bullets {
+  margin-top: 6px;
+  padding-left: 18px;
+}
+
+.cv__bullets li + li {
+  margin-top: 4px;
+}
+
+.cv__subhead {
+  margin-top: 32px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.cv__compact {
+  list-style: none;
+  margin-top: 6px;
+}
+
+.cv__compact li {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0 16px;
+  padding: 4px 0;
+  color: var(--ink-muted);
+}
+
+.cv__status {
+  margin-left: 6px;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 400;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.cv__stack {
+  margin-top: 4px;
+  font-family: var(--font-mono);
+  font-size: 13px;
+  color: var(--ink-muted);
+}
+
+.cv__skills div {
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  gap: 16px;
+  padding: 6px 0;
+}
+
+.cv__skills dt {
+  font-weight: 500;
+}
+
+.cv__skills dd {
+  margin: 0;
+  color: var(--ink-muted);
+}
+
+.cv__footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 8px 24px;
+  margin-top: 56px;
+  padding-top: 20px;
+  border-top: 1px solid var(--rule);
+  font-size: 14px;
+}
+
+/* Slim pinned bar, revealed once the full header scrolls away */
+
+.cv-bar {
+  position: fixed;
+  inset: 0 0 auto;
+  z-index: 40;
+  background: rgb(255 255 255 / 0.96);
+  border-bottom: 1px solid var(--rule);
+  transform: translateY(-100%);
+  visibility: hidden;
+  transition:
+    transform var(--dur) var(--ease-out),
+    visibility 0s linear var(--dur);
+}
+
+@supports (backdrop-filter: blur(8px)) {
+  .cv-bar {
+    background: rgb(255 255 255 / 0.86);
+    backdrop-filter: blur(8px);
+  }
+}
+
+.cv-bar--shown {
+  transform: none;
+  visibility: visible;
+  transition: transform var(--dur) var(--ease-out);
+}
+
+.cv-bar__inner {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  max-width: calc(var(--cv-width) + 2 * var(--gutter));
+  min-height: 56px;
+  margin: 0 auto;
+  padding: 8px var(--gutter);
+  font-size: 14px;
+}
+
+.cv-bar__who {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.25;
+  min-width: 0;
+}
+
+.cv-bar__who strong {
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.cv-bar__headline {
+  color: var(--accent);
+  font-size: 13px;
+}
+
+.cv-bar__nav {
+  display: flex;
+  gap: 16px;
+  margin-left: auto;
+}
+
+.cv-bar a {
+  color: var(--ink-muted);
+  text-decoration: none;
+}
+
+.cv-bar a:hover {
+  color: var(--ink);
+}
+
+.cv-bar__actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.cv-bar .cv-bar__pdf {
+  display: inline-flex;
+  align-items: center;
+  min-height: 36px;
+  padding: 0 14px;
+  border: 1px solid var(--ink);
+  color: var(--ink);
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.cv-bar .cv-bar__pdf:hover {
+  background: var(--ink);
+  color: var(--paper);
+}
+
+/* Section anchors land below the pinned bar */
+.cv__h2 {
+  scroll-margin-top: 80px;
+}
+
+@media (max-width: 960px) {
+  .cv-bar__nav {
+    display: none;
+  }
+
+  .cv-bar__actions {
+    margin-left: auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .cv-bar__email {
+    display: none;
+  }
+
+  .cv__skills div {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+}
+
+/* Small "back" link above the name (CV and case studies). */
+.cv__home,
+.project__back {
+  display: inline-block;
+  margin-bottom: 18px;
+  padding: 4px 0;
+  font-family: var(--font-mono);
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.cv .cv__home:hover,
+.cv .project__back:hover {
+  text-decoration: underline;
+}
+
+@media print {
+  .cv {
+    padding: 0;
+    font-size: 11pt;
+  }
+
+  .cv__section {
+    break-inside: avoid-page;
+  }
+
+  .skip-link,
+  .cv__home,
+  .cv-bar,
+  .cv__footer {
+    display: none;
+  }
+}
+
+.cv :focus-visible,
+.cv-bar :focus-visible {
+  outline-color: var(--forest);
+}
+
+.cv__project-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 18px;
+  margin-top: 6px;
+  list-style: none;
+  font-size: 15px;
+}

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+  <!-- beanmarkd mark: honey tile + white coffee bean (matches the in-app Wordmark) -->
+  <rect width="48" height="48" rx="11" fill="#E8A33D"/>
+  <ellipse cx="24" cy="24" rx="9.4" ry="12.5" fill="#fff"/>
+  <path d="M24 12.75c-3 3.75-3 18.75 0 22.5" stroke="#E8A33D" stroke-width="2.25" stroke-linecap="round"/>
+</svg>
